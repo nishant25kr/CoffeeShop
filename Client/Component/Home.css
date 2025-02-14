@@ -1,0 +1,30 @@
+*{
+    color: white;
+}
+
+body, .text-white {
+    overflow-x: hidden; 
+}
+  
+.text_div{
+
+    height:auto;
+    align-items: center;
+}
+.text_row{
+    height:550px;
+}
+.btn_{
+    background-color: rgb(12, 12, 12);
+}
+.font{
+    font-family: cursive;
+}
+.store_div{
+    transition: all 0.5s;
+}
+.store_div:hover{
+    scale: 1.05;
+
+
+}
