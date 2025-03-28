@@ -14,23 +14,18 @@ export default function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto  ">
                             <li class="nav-item ">
-                                <Link class="nav-link text-white" to="#"> <i class="fas fa-home"></i> </Link>
+                                <Link class="nav-link text-white px-4" to="#"> <i class="fas fa-home"></i> </Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link text-white" aria-current="page" to="#"><i class="fas fa-search"></i></Link>
+                                <Link class="nav-link text-white px-4" aria-current="page" to="#"><i class="fas fa-search"></i></Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link text-white" to="#"><i class="fas fa-envelope"></i></Link>
-                            </li>
-                            
+                                <Link class="nav-link text-white px-4" to="#"><i class="fas fa-envelope"></i></Link>
+                            </li>   
                         </ul>
                     </div>
-
                 </div>
-
             </nav>
-
-
         </div>
     )
 }
